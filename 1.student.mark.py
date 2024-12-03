@@ -27,9 +27,7 @@ def list_courses():
         print(f"ID: {course['id']}, Name: {course['name']}")
 
 # def input marks:
-    # ?
 # def list marks:
-    # ?
 
 while True:
     print("\nStudent Marks Management:")
