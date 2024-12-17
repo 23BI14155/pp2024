@@ -25,10 +25,7 @@ def list_courses():
     print("Course list:")
     for course in courses:
         print(f"ID: {course['id']}, Name: {course['name']}")
-
-# def input marks:
-# def list marks:
-
+        
 while True:
     print("\nStudent Marks Management:")
     print("1. Input student information")
@@ -49,5 +46,3 @@ while True:
     elif choice == "5":
         print("Exit")
         break
-    else:
-        print("Choose another number")
